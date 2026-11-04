@@ -1,0 +1,8 @@
+﻿python : Creating test database for alias 'default'...
+At line:1 char:1
++ python manage.py test 2>&1 | Out-File -FilePath .\full_test.txt -Enco ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Creating test d...as 'default'...:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+

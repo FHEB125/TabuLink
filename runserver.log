@@ -1,0 +1,12 @@
+Watching for file changes with StatReloader
+C:\Users\Jessa S. Datul\Downloads\TabuLink_Final\console\urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 13, 2026 - 18:18:17
+Django version 5.2.17, using settings 'tabulink.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/

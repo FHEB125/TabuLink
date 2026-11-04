@@ -1,0 +1,86 @@
+﻿python.exe : Creating test database for alias 'default'...
+At line:1 char:1
++ & .venv\Scripts\python.exe manage.py test console scores users events ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Creating test d...as 'default'...:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+.......................................................................................................................
+.......................................................................................................................
+.......................................................................................................................
+.......................................................................................................................
+.......................................................................................................................
+.......................................................................................................................
+.......................................................................................................................
+.......................................................................................................................
+...........
+Found 963 test(s).
+----------------------------------------------------------------------
+Ran 963 tests in 1740.703s
+System check identified no issues (0 silenced).
+[dry-run] Folk Dance (id 1): would set 4 criteria (currently 1).
+Dry run: no changes written.
+Folk Dance (id 1): set 4 criteria.
+Applied the preset rubric to 1 event(s).
+Event 1 'Mr. Intramurals' (COLLEGE, program 'Test Program'):
+  already present: none
+  to add: Beauty and Handsomeness, Intelligence / Substance of Answer
+Event 1 'Mr. Intramurals' (COLLEGE, program 'Test Program'):
+  already present: none
+  to add: Beauty and Handsomeness, Intelligence / Substance of Answer
+  added: Beauty and Handsomeness, Intelligence / Substance of Answer
+Event 2 'Ms. Intramurals' (COLLEGE, program 'Test Program'):
+  already present: none
+  to add: Beauty and Handsomeness, Intelligence / Substance of Answer
+  added: Beauty and Handsomeness, Intelligence / Substance of Answer
+Inspected 2 event(s); added 4 criter(ion); 0 already complete; 0 skipped.
+Event 1 'Mr. Intramurals' (COLLEGE, program 'Test Program'):
+  already present: none
+  to add: Beauty and Handsomeness, Intelligence / Substance of Answer
+  added: Beauty and Handsomeness, Intelligence / Substance of Answer
+Inspected 1 event(s); added 2 criter(ion); 0 already complete; 0 skipped.
+Event 1 'Mr. Intramurals' (COLLEGE, program 'Test Program'):
+  already present: none
+  to add: Beauty and Handsomeness, Intelligence / Substance of Answer
+  added: Beauty and Handsomeness, Intelligence / Substance of Answer
+Inspected 1 event(s); added 2 criter(ion); 0 already complete; 0 skipped.
+Event 1 'Mr. Intramurals' (COLLEGE, program 'Test Program'):
+  already present: Beauty and Handsomeness, Intelligence / Substance of Answer
+  to add: none
+Inspected 1 event(s); added 0 criter(ion); 1 already complete; 0 skipped.
+Event 1 'Mr. Intramurals' (COLLEGE, program 'Test Program'):
+  already present: Beauty and Handsomeness, Intelligence / Substance of Answer
+  to add: none
+Inspected 1 event(s); added 0 criter(ion); 1 already complete; 0 skipped.
+Event 1 'Mr. Intramurals' (COLLEGE, program 'Test Program'):
+  already present: Beauty and Handsomeness
+  to add: Intelligence / Substance of Answer
+  added: Intelligence / Substance of Answer
+Inspected 1 event(s); added 1 criter(ion); 0 already complete; 0 skipped.
+Inspected 0 event(s); added 0 criter(ion); 0 already complete; 0 skipped.
+Event 1 'Mr. Intramurals' (COLLEGE, program 'Test Program'): SKIPPED - official qualifying rubric is incomplete (missing: Production Number). No changes made.
+Inspected 1 event(s); added 0 criter(ion); 0 already complete; 1 skipped.
+Event 1 'Mr. Intramurals' (COLLEGE, program 'Test Program'): SKIPPED - official qualifying rubric is incomplete (missing: Production Number). No changes made.
+Event 2 'Ms. Intramurals' (COLLEGE, program 'Test Program'): SKIPPED - criterion 'Beauty and Handsomeness' exists in stage FINAL (expected FINAL_QA). No changes made.
+Inspected 2 event(s); added 0 criter(ion); 0 already complete; 2 skipped.
+Event 1 'Mr. Intramurals' (COLLEGE, program 'Test Program'): SKIPPED - official qualifying rubric is incomplete (missing: Production Number). No changes made.
+Event 3 'Mr. Intramurals' (COLLEGE, program 'Test Program'): SKIPPED - duplicate criterion 'Beauty and Handsomeness' (2 rows) - ambiguous. No changes made.
+Event 2 'Ms. Intramurals' (COLLEGE, program 'Test Program'): SKIPPED - criterion 'Beauty and Handsomeness' exists in stage FINAL (expected FINAL_QA). No changes made.
+Inspected 3 event(s); added 0 criter(ion); 0 already complete; 3 skipped.
+Event 1 'Mr. Intramurals' (COLLEGE, program 'Test Program'):
+  already present: none
+  to add: Beauty and Handsomeness, Intelligence / Substance of Answer
+Event 2 'Ms. Intramurals' (COLLEGE, program 'Test Program'):
+  already present: none
+  to add: Beauty and Handsomeness, Intelligence / Substance of Answer
+Dry run: no changes written. Inspected 2 event(s); 0 already complete; 0 skipped.
+
+OK
+Destroying test database for alias 'default'...
+
+Event 1 'Mr. Intramurals' (COLLEGE, program 'Test Program'):
+  already present: none
+  to add: Beauty and Handsomeness, Intelligence / Substance of Answer
+  added: Beauty and Handsomeness, Intelligence / Substance of Answer
+Inspected 1 event(s); added 2 criter(ion); 0 already complete; 0 skipped.
